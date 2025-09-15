@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "y",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "example",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/DataLocations.sol": "DataLocations"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/DataLocations.sol": {
+			"keccak256": "0x7ad72633e85fb323416e2ac08d3a5e7b41005be88685c5dac8f119fa1dac612e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://324cfdde56a1609343101828f73daaf14b17272d08b146e097025c06f4ecac08",
+				"dweb:/ipfs/Qmbyo8kfbypEgtPdcoGej679NqJsuWWKBwWUsqsL1aBN8d"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "E    / \\   F   G    \\ /     H super调用规则：      1、solidity使用C3线性化算法，super 调用遵循 H → G → F → E，确保每个父类方法只调用一次。      2、同一个父类方法（如 E.bar）在继承链中只会被执行一次 如果希望 E.bar() 被调用两次，就需要显式调用 F.bar() 和 G.bar()：      function bar() public override(F, G) {          F.bar(); // 触发 F.bar → E.bar           G.bar(); // 触发 G.bar → E.bar       }",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/ParentFunction.sol": "H"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/ParentFunction.sol": {
+			"keccak256": "0x4f8927135db8109649cbc7739fa06dae76be8ae38ec5eee62ceec19cb89f7865",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://054bc3f82bd0ece615e9658393c020e05566b8d017f81193303ac49f4418b03e",
+				"dweb:/ipfs/QmU2N3RbGH7bbjE3K3asdccZGVdDFdZAPf4q23QFSbxwEi"
+			]
+		}
+	},
+	"version": 1
+}

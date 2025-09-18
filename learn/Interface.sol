@@ -2,41 +2,20 @@
 
 pragma solidity 0.8.30;
 
-// 多重继承
-contract X {
-    function foo() public pure virtual returns(string memory) {
-        return "X";
-    }
+interface ICounter{
 
-    function bar() public pure virtual returns(string memory) {
-        return "X";
-    }
+    function count() external view returns(uint);
 
-     function x() public pure returns(string memory) {
-        return "X";
-    }
+    function increment() external;
 }
 
-contract Y is X{
-    function foo() public pure virtual override returns(string memory) {
-        return "Y";
+contract MyContract {
+    function incrementCounter(address _counter) external {
+        ICounter(_counter).increment();
     }
 
-    function bar() public pure virtual override returns(string memory) {
-        return "Y";
-    }
-
-    function y() public pure returns(string memory) {
-        return "Y";
-    }
-}
-
-contract Z is X, Y{
-    function foo() public pure override(X,Y) returns(string memory) {
-        return "Z";
-    }
-
-    function bar() public pure override(X,Y) returns(string memory) {
-        return "Z";
+    // Solidity 会自动为 public 状态变量生成同名的 getter 函数，因此可以通过.count()调用
+    function getCount(address _counter) external view returns(uint) {
+        return ICounter(_counter).count();
     }
 }

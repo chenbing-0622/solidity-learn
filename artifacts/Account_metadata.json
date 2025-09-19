@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "bank",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/Account.sol": "Account"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/Account.sol": {
+			"keccak256": "0xc4f155d338207585811dfd5f4d66aaf6709aeef4aad09258bcb91fd7c1f8ef4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee17990e691a485e5bb8baa882daafc651f0e835d4c405ecf62636970ad0520a",
+				"dweb:/ipfs/QmZJiX4JKj39GVYyNiBNiricRMSd66E3NQadUTGyChF9X4"
+			]
+		}
+	},
+	"version": 1
+}

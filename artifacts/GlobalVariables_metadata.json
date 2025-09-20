@@ -49,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/globalVariables.sol": "GlobalVariables"
+			"learn/GlobalVariables.sol": "GlobalVariables"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -63,7 +63,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/globalVariables.sol": {
+		"learn/GlobalVariables.sol": {
 			"keccak256": "0xb31257ac7a6890071f397b2ed61b78ff64b0cc188cd76248d851238e91f664ea",
 			"license": "MIT",
 			"urls": [

@@ -171,11 +171,11 @@
 	},
 	"sources": {
 		"learn/senior/DutchAuction.sol": {
-			"keccak256": "0x24280c0e6b462f84188e7ef55891958d13999fa00b5e06095f8ca2400c64c588",
+			"keccak256": "0x8bcf43f7899ff2596b5146a01ba7a70a8f14325188d70353366c1a585ac8ec7b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fb10715503ea2e0373c90e3b07f181484470305e7612bb058b7f38250c0b9adb",
-				"dweb:/ipfs/QmcwLH2qsdChfnZzPaNLfQeRWcAfwdV3JAiWigzm5Bfhes"
+				"bzz-raw://c30072333f3683c3c08f21411f028a4dbc8903c3dd4054739f6a0d1827acda1d",
+				"dweb:/ipfs/QmbmZn1BeKrxuyHyVPgbArTiX9veqEdnSgwmu85q3x29dA"
 			]
 		}
 	},

@@ -17,13 +17,13 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "approved",
+						"name": "spender",
 						"type": "address"
 					},
 					{
 						"indexed": true,
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -73,7 +73,7 @@
 					{
 						"indexed": true,
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -84,12 +84,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "to",
+						"name": "spender",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -121,7 +121,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -134,7 +134,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -153,12 +153,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "owner",
+						"name": "",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "operator",
+						"name": "",
 						"type": "address"
 					}
 				],
@@ -182,7 +182,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -195,7 +195,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -203,7 +203,7 @@
 				"outputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "owner",
 						"type": "address"
 					}
 				],
@@ -224,7 +224,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -247,12 +247,12 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					},
 					{
 						"internalType": "bytes",
-						"name": "_data",
+						"name": "data",
 						"type": "bytes"
 					}
 				],
@@ -295,7 +295,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -312,7 +312,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "tokenId",
+						"name": "id",
 						"type": "uint256"
 					}
 				],
@@ -335,7 +335,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/ERC721.sol": "MyNFT"
+			"learn/senior/MyNFT.sol": "MyNFT"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -349,12 +349,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/senior/ERC721.sol": {
-			"keccak256": "0x12b7d8935915f613c796af0073f72335e546dc55846a0751257816c9fcfc35ea",
+		"learn/senior/MyNFT.sol": {
+			"keccak256": "0x6577bb69744626309477848e28d4c3d2e80d2ac78c6a2e9a23085704090940c4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://760b55592b4e1935b8f633aa7b5c6d2ec62c72700c282b5e10f40387ad2081c4",
-				"dweb:/ipfs/Qmcg6TUBTpqgPyicD72842ZJc157wauE6PGD3pG872vVdz"
+				"bzz-raw://1a35609e778d8b53c465a7e3d584849a11221f1b348523f9308b78e25adc9df4",
+				"dweb:/ipfs/QmZx7sh6r371evaAvmYUpAyovuFWzQopJCTvVHQSYhBxpE"
 			]
 		}
 	},

@@ -350,11 +350,11 @@
 	},
 	"sources": {
 		"learn/senior/MyNFT.sol": {
-			"keccak256": "0x6577bb69744626309477848e28d4c3d2e80d2ac78c6a2e9a23085704090940c4",
+			"keccak256": "0xdb061a3d15fee9a8a1bf1f1d41994e168a937cce1fea723922d5ad6bde322fe9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1a35609e778d8b53c465a7e3d584849a11221f1b348523f9308b78e25adc9df4",
-				"dweb:/ipfs/QmZx7sh6r371evaAvmYUpAyovuFWzQopJCTvVHQSYhBxpE"
+				"bzz-raw://76ff7fbab826116000aa4d7ffd22aa3940c87875e18b5d2c8d608cdbfbe98557",
+				"dweb:/ipfs/QmNdYHLd3SfAWe2PM42KRoxKTmMsbyrMM48wVcUw7gL5Co"
 			]
 		}
 	},

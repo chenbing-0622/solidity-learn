@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/DutchAuction.sol": "IERC721"
+			"learn/senior/EnglishAuction.sol": "IERC721"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -56,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/senior/DutchAuction.sol": {
-			"keccak256": "0x8bcf43f7899ff2596b5146a01ba7a70a8f14325188d70353366c1a585ac8ec7b",
+		"learn/senior/EnglishAuction.sol": {
+			"keccak256": "0x56185b2f507d4f2ea149069063bd0fdf866a0b661f0e013a73c1137fbeef2ffd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c30072333f3683c3c08f21411f028a4dbc8903c3dd4054739f6a0d1827acda1d",
-				"dweb:/ipfs/QmbmZn1BeKrxuyHyVPgbArTiX9veqEdnSgwmu85q3x29dA"
+				"bzz-raw://3864cf7d6e831983af198e651df40ef592a14bc346b11ba23e994c911052eab3",
+				"dweb:/ipfs/QmY9qsJNbULnRK7M2QiQ6K2tN3fJDiGT9ZymMrn4NjBoJa"
 			]
 		}
 	},

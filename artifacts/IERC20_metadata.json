@@ -9,92 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "owner",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					}
-				],
-				"name": "allowance",
-				"outputs": [
-					{
-						"internalType": "uint256",
 						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "spender",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "approve",
-				"outputs": [
-					{
-						"internalType": "bool",
 						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "account",
-						"type": "address"
-					}
-				],
-				"name": "balanceOf",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalSupply",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "recipient",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
 						"type": "uint256"
 					}
 				],
@@ -113,17 +33,17 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "sender",
+						"name": "",
 						"type": "address"
 					},
 					{
 						"internalType": "address",
-						"name": "recipient",
+						"name": "",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -152,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/ERC20.sol": "IERC20"
+			"learn/senior/CrowdFund.sol": "IERC20"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -166,12 +86,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/senior/ERC20.sol": {
-			"keccak256": "0x3d246b9389b17fa0501f7c916af53282dba864df472ea3cf6afc959105157c2b",
+		"learn/senior/CrowdFund.sol": {
+			"keccak256": "0x7375fb26ca34f110db0215962065b5f292c47382719f428294e1766284b3b2a9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f6c4fb2faec58be166e228ed71febfede1a19d26db2f51cfc1facfe245fff767",
-				"dweb:/ipfs/QmUe2msiZw7UUwtaiBcrQbV4m6KZEWRSaor8xyYJ2QoLNL"
+				"bzz-raw://f4242ec49b8439c52b1edc0bff734f24bbc8425015bcdf6aa4d5fc747f1af585",
+				"dweb:/ipfs/QmRf5pESr55djsYFcGDc48amvBYaykosgPRj25Vd8A6DCQ"
 			]
 		}
 	},

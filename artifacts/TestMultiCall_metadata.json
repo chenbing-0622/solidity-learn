@@ -7,8 +7,13 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "num",
+				"name": "func1",
 				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -20,47 +25,13 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "func2",
 				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sender",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -68,6 +39,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData1",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData2",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -84,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/DelegateCall.sol": "B"
+			"learn/senior/MultiCall.sol": "TestMultiCall"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -98,12 +95,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/DelegateCall.sol": {
-			"keccak256": "0x1ea965f3ebc26a5dd06b744bbce146f1faad12c7cb85ab03a3f73499d530f3b9",
+		"learn/senior/MultiCall.sol": {
+			"keccak256": "0x348ee2720494088710623f47103cc66d9e1b728f7c69f87a969b4330336caa3b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32962dbe0ed7b237f06bfcdcfcaf9e25a7629253a9282c4757589ac333eb3a69",
-				"dweb:/ipfs/QmZr8HZMQaGCNv8uCgMAEYWtp2VFzGXKbbtZJTNkoGtZrm"
+				"bzz-raw://588de15cf8badb05ac2bb2382053f1cbd08bf3cb1441ccad9412835a8608f6b8",
+				"dweb:/ipfs/QmYaxCjGDJXRco7EgeQMajfN8cDWV3b94aWpCDeeqmBZsr"
 			]
 		}
 	},

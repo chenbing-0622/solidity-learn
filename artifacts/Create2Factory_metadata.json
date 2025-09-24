@@ -6,21 +6,45 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "num",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "Deploy",
+				"type": "event"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_salt",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "sender",
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "bytecode",
+						"type": "bytes"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_salt",
+						"type": "uint256"
+					}
+				],
+				"name": "getAddress",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -35,31 +59,19 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_contract",
+						"name": "_owner",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
 					}
 				],
-				"name": "setVars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
+				"name": "getBytecode",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -76,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/DelegateCall.sol": "A"
+			"learn/senior/Create2.sol": "Create2Factory"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -90,12 +102,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/DelegateCall.sol": {
-			"keccak256": "0x1ea965f3ebc26a5dd06b744bbce146f1faad12c7cb85ab03a3f73499d530f3b9",
+		"learn/senior/Create2.sol": {
+			"keccak256": "0x8f3d7a85be10d1abe8d36c719b80911514b7cffc5e21a599470c4e1f86e90aaa",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32962dbe0ed7b237f06bfcdcfcaf9e25a7629253a9282c4757589ac333eb3a69",
-				"dweb:/ipfs/QmZr8HZMQaGCNv8uCgMAEYWtp2VFzGXKbbtZJTNkoGtZrm"
+				"bzz-raw://a27065f57663f4f42784a38ab9b7c105dcef5672e7c51ac7826bcec3eb953795",
+				"dweb:/ipfs/QmZLMQSyWYDz9ygUjwKv7gMYzuKb13YPcYZK7qYNRNYFse"
 			]
 		}
 	},

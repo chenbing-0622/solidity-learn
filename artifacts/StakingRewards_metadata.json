@@ -344,11 +344,11 @@
 			]
 		},
 		"learn/senior/StakingRewards.sol": {
-			"keccak256": "0x3031e5e48f54525355081b4c2b3c0356e841a95e3281d332f2af64bcee7edeec",
+			"keccak256": "0xd070dc518e4056afcd29bb0d0243af0257d05616ebde89e2f97510e850084cd9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://25c5ec4ec8d1dead01edd2b2241935ce39dad0b5923d1e52de924e998b844790",
-				"dweb:/ipfs/QmaBgfBqyoKSjcwuGzm3zkwBResJGv8KD4VAESma8ay7DA"
+				"bzz-raw://1b94fada15727b0dc9c45e61d6e1600415c2470532899a477cbe2d99c2c22a57",
+				"dweb:/ipfs/Qmd27kCakdi47De23FPiQgktEiamJBgoMnGiU8vzi7u9pM"
 			]
 		}
 	},

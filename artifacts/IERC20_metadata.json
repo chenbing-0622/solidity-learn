@@ -167,11 +167,11 @@
 	},
 	"sources": {
 		"learn/staking_reward/DiscreteStakingRewards.sol": {
-			"keccak256": "0x25e97348bf8bb883407492734d8090c7bd58f0ef98b72ac3dd0626fd295b21eb",
+			"keccak256": "0x66ace095ebe07914aa0d37ab4e4e404e3753423bc480b0172d0465a002689459",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://370bcedcc63b5d1d0aabc985d4882250fe7bcc180fa9bf7bd96b7a3c811c1db9",
-				"dweb:/ipfs/QmdgkfmN2f3f1L39uv5hi3AYmTyQDQLg9amWS5oq1dvej2"
+				"bzz-raw://d5a08ee43b20fcb4456942e92fb89e6bbddaef0857db540395e9a804cb66d0df",
+				"dweb:/ipfs/QmcgPhqtALcCUNfBYQXgoKDzpmqaY5VY5sy3trDw3BzUYD"
 			]
 		}
 	},

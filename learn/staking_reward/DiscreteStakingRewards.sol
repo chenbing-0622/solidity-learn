@@ -11,6 +11,12 @@ interface IERC20 {
     function transferFrom(address spender, address recipient, uint256 amount) external returns(bool);
 }
 
+/*
+    普通质押是实时计算利息，这个合约采用离散更新：
+        1、管理员定期注入奖励：就像银行定期往奖金池里放钱
+        2、奖励指数：记录"每1个质押代币累计应得奖励"
+        3、只在关键操作时结算：存款、取款、领奖时才计算应得奖励
+*/
 contract DiscreteStakingRewards {
     IERC20 public immutable stakingToken;
     IERC20 public immutable rewardToken;
@@ -34,20 +40,20 @@ contract DiscreteStakingRewards {
         rewardIndex += (reward * MULTIPLIER) / totalSupply;
     }
 
-    // 计算奖励
+    // 计算用户获得的奖励
     function _calculateRewards(address account) private view returns(uint){
         uint shares = balanceOf[account];
         return (shares * (rewardIndex - rewardIndexOf[account]))/ MULTIPLIER;
     }
 
-    // 计算用户总共获得的奖励
+    // 累加用户获得的奖励
     function calculateRewardEarned(address account) external view returns(uint){
         return earned[account] + _calculateRewards(account);
     }
 
     // 更新⽤⼾奖励：避免重复计算从最开始到现在的所有收益
     function _updateRewards(address account) private {
-        earned[account] += _calculateRewards(account);
+        earned[account] += _calculateRewards(account); // 累加用户获得的奖励
         rewardIndexOf[account] = rewardIndex;
     }
 
@@ -74,8 +80,8 @@ contract DiscreteStakingRewards {
         uint reward = earned[msg.sender];
 
         if(reward > 0){
-        earned[msg.sender] = 0;
-        rewardToken.transfer(msg.sender, reward);
+            earned[msg.sender] = 0;
+            rewardToken.transfer(msg.sender, reward);
         }
 
         return reward;

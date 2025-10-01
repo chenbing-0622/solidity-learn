@@ -446,7 +446,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/StakingToken.sol": "StakingToken"
+			"learn/staking_reward/StakingToken.sol": "StakingToken"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -500,7 +500,7 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"learn/senior/StakingToken.sol": {
+		"learn/staking_reward/StakingToken.sol": {
 			"keccak256": "0x06634d0fb78dd566ba12b219ad8058eae9a7eeb9e2614f85930acfafdb46c983",
 			"license": "MIT",
 			"urls": [

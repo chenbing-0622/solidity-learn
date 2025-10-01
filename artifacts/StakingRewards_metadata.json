@@ -313,7 +313,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/StakingRewards.sol": "StakingRewards"
+			"learn/staking_reward/StakingRewards.sol": "StakingRewards"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -343,12 +343,12 @@
 				"dweb:/ipfs/QmeCfPykghhMc81VJTrHTC7sF6CRvaA1FXVq2pJhwYp1dV"
 			]
 		},
-		"learn/senior/StakingRewards.sol": {
-			"keccak256": "0x591d216e78b89ab49286c2216725aa3e3d3635fb1841030d794d850ace639a4b",
+		"learn/staking_reward/StakingRewards.sol": {
+			"keccak256": "0xa84150f9f84c7b5fcc46afd8354ae453392625df77f8a8a768fe66677f4bce70",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://de9009803647629f2158b26a7956a4b49c1e43eddb982ebf2a952f906eab3c79",
-				"dweb:/ipfs/QmS1PLSEw115NZtiDGW4qen71y39Z4igaJ24xqL9QkTbtF"
+				"bzz-raw://5b5239f58df51e838b567c1713f54b4877875c83a221a454893bec1baca4c2b6",
+				"dweb:/ipfs/Qmf8L7PmJX8d2Wsmwn14wJFMSkyV88GPytDJpG1bNE1vbv"
 			]
 		}
 	},

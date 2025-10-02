@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/EncodeCall.sol": "IERC20"
+			"learn/senior/EncodeCall.sol": "Token"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

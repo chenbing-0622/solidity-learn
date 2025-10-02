@@ -6,19 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
+				"inputs": [],
+				"name": "count",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "transfer",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -37,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/EncodeCall.sol": "IERC20"
+			"learn/delegate/Proxy2.sol": "CounterV1"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -51,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/senior/EncodeCall.sol": {
-			"keccak256": "0xd66f5350c3881c7034f42b3e04d2d955450f6fdf9661f794162cda70035c2570",
+		"learn/delegate/Proxy2.sol": {
+			"keccak256": "0xb9022837084d55c961187a2b483bd25ee021b19ee2c6fff74cf598d0556d5839",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6f376aaa9449fd9147ea8a0df4378953374a056bb0d772ad44532651892011c7",
-				"dweb:/ipfs/QmSsJEghCvGXtJfNjyewwZ6UEjDz7r5miAogcatJMvpiqh"
+				"bzz-raw://a1b721c04d83a4d43187a0624c10a216d14ae1d785901f179e1df88ce96e43d6",
+				"dweb:/ipfs/QmVV2pXtTPWzkWfhwM475cyQrdVk3n3JQ9vN8CrsALzxsi"
 			]
 		}
 	},

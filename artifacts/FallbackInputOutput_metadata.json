@@ -9,19 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_target",
 						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
-				"name": "transfer",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
 			}
 		],
 		"devdoc": {
@@ -37,7 +34,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/EncodeCall.sol": "IERC20"
+			"learn/senior/FallbackIn.sol": "FallbackInputOutput"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -51,12 +48,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/senior/EncodeCall.sol": {
-			"keccak256": "0xd66f5350c3881c7034f42b3e04d2d955450f6fdf9661f794162cda70035c2570",
+		"learn/senior/FallbackIn.sol": {
+			"keccak256": "0x9603c59cb3b3a4465be1510a629393c4bcf10c2c47e722fde4949376e9400bab",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6f376aaa9449fd9147ea8a0df4378953374a056bb0d772ad44532651892011c7",
-				"dweb:/ipfs/QmSsJEghCvGXtJfNjyewwZ6UEjDz7r5miAogcatJMvpiqh"
+				"bzz-raw://b8eb4b40006d1bc556b7f0c8d41ad2d62acc0ef6f82b2b0dec6f044da0c0355a",
+				"dweb:/ipfs/QmWjhqj1Hg1tZyA4w4KEHBaH2wsJTA2uWintB7oWwfmJ5D"
 			]
 		}
 	},

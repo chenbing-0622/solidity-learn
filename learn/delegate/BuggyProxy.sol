@@ -23,6 +23,10 @@ contract CounterV2 {
 
 /*
     "At Address" 不会创建新的合约, 只是在 Remix 界面中创建对现有合约的引用和使用当前选中的合约 ABI 生成交互界面
+
+    透明代理：
+	1、注重权限分离，升级逻辑在代理合约实现
+	2、每次调用函数需要检查是管理员调用还是用户调用，损耗gas，如果不检查的话管理员误操作执行了业务代码可能意外修改重要状态
 */
 contract BuggyProxy {
     address public implementation;

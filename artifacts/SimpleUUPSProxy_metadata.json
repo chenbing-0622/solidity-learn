@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "admin",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/delegate/UUPSProxy.sol": "SimpleUUPSProxy"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/delegate/UUPSProxy.sol": {
+			"keccak256": "0x5d38008db05e6ff6ef88a9bfa34b332197a5328cb92592e062295602afbdf6ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec98c680b904d4fbf35298928e53b0327b78f35219c7d6831d0fa004e95a058c",
+				"dweb:/ipfs/QmZwVsrG5gosk9vDbxy7aMXw62Z31dY3ckvLVAaVJ4upSN"
+			]
+		}
+	},
+	"version": 1
+}

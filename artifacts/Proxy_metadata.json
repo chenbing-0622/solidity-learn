@@ -16,32 +16,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "ADMIN_SLOT",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "IMPLEMENTATION_SLOT",
-				"outputs": [
-					{
-						"internalType": "bytes32",
-						"name": "",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "admin",
 				"outputs": [
 					{
@@ -50,7 +24,20 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_admin",
+						"type": "address"
+					}
+				],
+				"name": "changeAdmin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -63,7 +50,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -97,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/delegate/Proxy2.sol": "Proxy"
+			"learn/delegate/Proxy4.sol": "Proxy"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -111,12 +98,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/delegate/Proxy2.sol": {
-			"keccak256": "0xb9022837084d55c961187a2b483bd25ee021b19ee2c6fff74cf598d0556d5839",
+		"learn/delegate/Proxy4.sol": {
+			"keccak256": "0x321ec484f37fe490711ed1def48ec3de2a1c0fffb6c4fd5d92249aec95355dbc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a1b721c04d83a4d43187a0624c10a216d14ae1d785901f179e1df88ce96e43d6",
-				"dweb:/ipfs/QmVV2pXtTPWzkWfhwM475cyQrdVk3n3JQ9vN8CrsALzxsi"
+				"bzz-raw://a41f8f7f800761e256a01ce9e337ca326f95d4a53fa7c304425eb19c06b4454f",
+				"dweb:/ipfs/QmVbYU8SKk3PvA95yFCMBx47hr4HHmdJT5e8x7mfQGvf61"
 			]
 		}
 	},

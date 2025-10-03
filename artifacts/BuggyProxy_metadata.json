@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/senior/aa.sol": "BuggyProxy"
+			"learn/delegate/BuggyProxy.sol": "BuggyProxy"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -85,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/senior/aa.sol": {
-			"keccak256": "0xa5626b9d507f4af15598b4c4e74e16131bfbd598859cb81ad41d7ebb0d40b15a",
+		"learn/delegate/BuggyProxy.sol": {
+			"keccak256": "0xa53edc0c31032c6a446e1c4ff88271983116dc84c021e222585803455ea5cf3d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b300f81c13b44025e04cc5586cc5a054ecc9b8c16879a3c538e16205e0b9600d",
-				"dweb:/ipfs/Qme5VtUBMtj9N6pdJtsDmj8NpGycp93z3z4U1PCrh8C4LP"
+				"bzz-raw://e910aa85c2096b993269cdb1a49d93bacdcacfc9059d0395209493f7e3d24254",
+				"dweb:/ipfs/QmdGiCb5DiUp5L5mtEMtS4rftyPUUan2uqgvvTGBk2srP1"
 			]
 		}
 	},

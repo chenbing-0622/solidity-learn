@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "inc",
+				"name": "increment",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/delegate/Proxy2.sol": "CounterV1"
+			"learn/delegate/BuggyProxy.sol": "CounterV1"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -53,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn/delegate/Proxy2.sol": {
-			"keccak256": "0xb9022837084d55c961187a2b483bd25ee021b19ee2c6fff74cf598d0556d5839",
+		"learn/delegate/BuggyProxy.sol": {
+			"keccak256": "0xa53edc0c31032c6a446e1c4ff88271983116dc84c021e222585803455ea5cf3d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a1b721c04d83a4d43187a0624c10a216d14ae1d785901f179e1df88ce96e43d6",
-				"dweb:/ipfs/QmVV2pXtTPWzkWfhwM475cyQrdVk3n3JQ9vN8CrsALzxsi"
+				"bzz-raw://e910aa85c2096b993269cdb1a49d93bacdcacfc9059d0395209493f7e3d24254",
+				"dweb:/ipfs/QmdGiCb5DiUp5L5mtEMtS4rftyPUUan2uqgvvTGBk2srP1"
 			]
 		}
 	},

@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "diamondAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn/delegate/Diamond.sol": "DiamondDeployer"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn/delegate/Diamond.sol": {
+			"keccak256": "0x19aa68d4b59b83fdbe45ee24ce440b42ffb5ebfb6d8ff5b9da667c57aa12edcf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://73303ab2f846f4fcc859d3bb89d192a91c1508e48ecd03494c98eea00d9f599d",
+				"dweb:/ipfs/Qmdm6QeLx9VrWUhgST9ZAshKMM9zcrVe26Tt5DRzfM65AN"
+			]
+		}
+	},
+	"version": 1
+}

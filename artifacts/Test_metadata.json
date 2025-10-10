@@ -6,19 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "y",
-						"type": "uint256"
-					}
-				],
-				"name": "testMax",
+				"inputs": [],
+				"name": "clock",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,7 +15,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -43,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn/Library.sol": "Test"
+			"learn/governance/Test.sol": "Test"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -51,18 +40,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": false,
+			"enabled": true,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
-		"learn/Library.sol": {
-			"keccak256": "0xc9c2b4c9b094d1b7de29f30718b7ea65a053408ea673a2c6814a918ff7f93cf4",
+		"learn/governance/Test.sol": {
+			"keccak256": "0xb5d45f9805bc104f8e8c05b133617c5441dc8a0ddff46dc15db3826e5a7af51b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://000bf9c66d72200b041938b9fa9654f7c2caeb9f220065a078d8adc10b4fba18",
-				"dweb:/ipfs/QmTBZMWgXwr3vVEuuRdoKVvWo4bcjFs1LJG4M9bvvHHoyD"
+				"bzz-raw://ed296980bd975e1b542f031df6b8e8a8b34d5fa1960b13770ba2a127e6b3a1d4",
+				"dweb:/ipfs/QmV93QS1yHtufbVTunWPFaUJQU1ZuvEKeKuvxgPBR6Pseb"
 			]
 		}
 	},

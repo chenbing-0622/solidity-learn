@@ -86,11 +86,11 @@
 	},
 	"sources": {
 		"learn/delegate/BuggyProxy.sol": {
-			"keccak256": "0xa53edc0c31032c6a446e1c4ff88271983116dc84c021e222585803455ea5cf3d",
+			"keccak256": "0xaffffb8b55542cf01e07b972be78a1674eba2d7c81be0521aa8f66f9bb231a64",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e910aa85c2096b993269cdb1a49d93bacdcacfc9059d0395209493f7e3d24254",
-				"dweb:/ipfs/QmdGiCb5DiUp5L5mtEMtS4rftyPUUan2uqgvvTGBk2srP1"
+				"bzz-raw://a831ce4b87783a3097c0b9841210e3ce3a5c011095c5589325d2155e57d3abf7",
+				"dweb:/ipfs/QmXJGiN8XGd5zWxFc4f4iUVdSGE9mnwKkAmWRgRNzDCjqC"
 			]
 		}
 	},
